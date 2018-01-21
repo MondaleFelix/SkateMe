@@ -36,7 +36,7 @@ class ViewController: UIViewController, UIScrollViewDelegate{
     }
 
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        pageControl.currentPage = Int(scrollView.contentOffset.x / CGFloat(414))
+        pageControl.currentPage = Int(scrollView.contentOffset.x / CGFloat(200))
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
